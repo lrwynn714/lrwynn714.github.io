@@ -1,15 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "家教算吗~"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
 venue: "University 1, Department"
 date: 2015-01-01
-location: "City, Country"
+location: ""
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
+虽然我确实很想支教来着，博士期间支教一次吧
 Heading 1
 ======
 
