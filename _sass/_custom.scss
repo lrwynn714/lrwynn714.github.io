@@ -1,0 +1,27 @@
+/* === 自定义样式 === */
+@font-face {
+  font-family: 'CuteFont';
+  src: url('../fonts/NiShiWoDeKeAiBaoBei-2.ttf') format('truetype');
+}
+
+body {
+  background: url('{{ "/images/0_1682741720.jpeg" | relative_url }}') center/cover fixed no-repeat;
+  font-family: 'CuteFont', sans-serif;
+  cursor: url('{{ "/assets/Normal.cur" | relative_url }}'), auto;
+}
+
+a:hover {
+  cursor: url('{{ "/assets/Link.cur" | relative_url }}'), pointer;
+}
+
+input, textarea {
+  cursor: url('{{ "/assets/Text.cur" | relative_url }}'), text;
+}
+
+button, [role="button"] {
+  cursor: url('{{ "/assets/Busy.ani" | relative_url }}'), progress;
+}
+
+[disabled], .unavailable {
+  cursor: url('{{ "/assets/Unavailable.cur" | relative_url }}'), not-allowed;
+}
