@@ -3,10 +3,7 @@
   font-family: 'CuteFont';
    src: url('{{ "/assets/fonts/NiShiWoDeKeAiBaoBei-2.ttf" | relative_url }}') format('truetype');
 }
-}
-body {
-  background: red !important;
-}
+
 
 body {
   background: url('{{ "/assets/images/0_1682741720.jpeg" | relative_url }}') center/cover fixed no-repeat;
