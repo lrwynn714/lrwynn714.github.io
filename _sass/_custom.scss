@@ -1,15 +1,18 @@
 /* === 自定义样式 === */
 @font-face {
   font-family: 'CuteFont';
-  src: url('../fonts/NiShiWoDeKeAiBaoBei-2.ttf') format('truetype');
+   src: url('{{ "/assets/fonts/NiShiWoDeKeAiBaoBei-2.ttf" | relative_url }}') format('truetype');
+}
 }
 body {
   background: red !important;
 }
 
 body {
-  background: url('{{ "/images/0_1682741720.jpeg" | relative_url }}') center/cover fixed no-repeat;
+  background: url('{{ "/assets/images/0_1682741720.jpeg" | relative_url }}') center/cover fixed no-repeat;
   font-family: 'CuteFont', sans-serif;
+  
+  /* 同样，为 cursor 文件使用过滤器 */
   cursor: url('{{ "/assets/Normal.cur" | relative_url }}'), auto;
 }
 
