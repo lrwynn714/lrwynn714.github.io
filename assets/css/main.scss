@@ -42,35 +42,4 @@
     "vendor/font-awesome/brands"
 ;
 
-/* === 自定义样式 === */
-body {
-  background-image: url('../images/0_1682741720.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  font-family: 'CuteFont', sans-serif;
-  cursor: url('../Normal.cur'), auto;
-}
-
-a:hover {
-  cursor: url('../Link.cur'), pointer;
-}
-
-input, textarea {
-  cursor: url('../Text.cur'), text;
-}
-
-button, [role="button"] {
-  cursor: url('../Busy.ani'), progress;
-}
-
-.unavailable, [disabled] {
-  cursor: url('../Unavailable.cur'), not-allowed;
-}
-
-/* 字体导入 */
-@font-face {
-  font-family: 'CuteFont';
-  src: url('../fonts/NiShiWoDeKeAiBaoBei-2.ttf') format('truetype');
-}
+@import "custom";
