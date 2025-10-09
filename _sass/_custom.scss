@@ -3,6 +3,9 @@
   font-family: 'CuteFont';
   src: url('../fonts/NiShiWoDeKeAiBaoBei-2.ttf') format('truetype');
 }
+body {
+  background: red !important;
+}
 
 body {
   background: url('{{ "/images/0_1682741720.jpeg" | relative_url }}') center/cover fixed no-repeat;
